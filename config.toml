@@ -1,0 +1,66 @@
+baseURL = "https://sapronov.me/"
+
+
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Alexander Sapronov"
+title = "Alexander Sapronov"
+
+theme = "custom-hugo-goa"
+
+showcomments = false
+showpagemeta = false
+
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Alexander Sapronov"
+intro = "VP of Engineering"
+description = "@welltory"
+authorimage = "headshot.png"
+dateformat = "Jan 26, 2020"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "axsapronov"
+instagram = "axsapronov"
+linkedin = "axsapronov"
+twitter = "axsapronov"
+facebook = "axsapronov"
+telegram = "axsapronov"
+
+## Extras
+[params.extra]
+poweredby = false
+highlightjs = true
+socialmarkup = true
+
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
