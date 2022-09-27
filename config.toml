@@ -21,15 +21,18 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Alexander Sapronov"
-intro = "VP of Engineering"
-description = "@welltory"
+author = "Александр Сапронов"
+intro = "Engineering Manager (Руководитель IT/CTO)"
+description = "9 лет опыта в IT, работал в Avito, Welltory и других"
+job_want = "Ищу "
+resume_ru = "/resume/resume_ru.pdf"
 authorimage = "headshot.png"
 dateformat = "Jan 26, 2020"
+long_description = "show"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
+description = "Engineering Manager - Aleksandr Sapronov"
 keywords = "minimalist,blog,goa,hugo,developer"
 
 ## Social Accounts
@@ -40,13 +43,13 @@ linkedin = "axsapronov"
 twitter = "axsapronov"
 facebook = "axsapronov"
 telegram = "axsapronov"
+email = "a@sapronov.me"
 
 ## Extras
 [params.extra]
 poweredby = false
 highlightjs = true
 socialmarkup = true
-
 
 ## Main Menu
 [[menu.main]]

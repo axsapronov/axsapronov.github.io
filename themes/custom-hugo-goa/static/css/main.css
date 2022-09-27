@@ -66,7 +66,7 @@ li
 {
     overflow: auto;
 
-    max-width: 680px;
+    max-width: 1024px;
     padding: 0 15px;
 }
 .content
@@ -92,7 +92,7 @@ div.content
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #8b8b8b;
+    color: #444;
 }
 .error
 {
@@ -121,6 +121,15 @@ div.content
     color: #555;
     margin-bottom: 20px;
 }
+.excerpt
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+
+    color: #444;
+    margin-bottom: 20px;
+}
 .footer
 {
     margin-top: 10px;
@@ -129,7 +138,7 @@ div.content
 }
 .header
 {
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .headshot
@@ -146,7 +155,7 @@ div.content
 {
     font-family: 'Roboto Slab', serif;
     font-weight: 200;
-    color: #777;
+    color: #444;
 }
 h3.intro
 {
@@ -207,6 +216,7 @@ a.meta
 {
     color: #966;
 }
+
 h6.meta
 {
     font-family: 'Roboto', sans-serif;
@@ -216,7 +226,7 @@ h6.meta
     color: #8b8b8b;
 }
 section.meta {
-    margin-top:
+    margin-top: 1
 }
 .powered
 {

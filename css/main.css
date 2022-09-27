@@ -92,7 +92,7 @@ div.content
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #8b8b8b;
+    color: #444;
 }
 .error
 {
@@ -129,7 +129,7 @@ div.content
 }
 .header
 {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .headshot
@@ -146,7 +146,7 @@ div.content
 {
     font-family: 'Roboto Slab', serif;
     font-weight: 200;
-    color: #777;
+    color: #444;
 }
 h3.intro
 {
@@ -207,6 +207,7 @@ a.meta
 {
     color: #966;
 }
+
 h6.meta
 {
     font-family: 'Roboto', sans-serif;
@@ -216,7 +217,7 @@ h6.meta
     color: #8b8b8b;
 }
 section.meta {
-    margin-top:
+    margin-top: 1
 }
 .powered
 {

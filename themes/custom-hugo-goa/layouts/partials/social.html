@@ -1,4 +1,10 @@
 <section id="social-pane" class="row text-center social">
+  {{ with .Site.Params.social.telegram}}
+  <a href="https://t.me/{{.}}" aria-label="Telegram" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a>
+  {{ end }}
+  {{ with .Site.Params.social.email }}
+  <a href="mailto:{{.}}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+  {{ end }}
   {{ with .Site.Params.social.twitter }}
   <a href="https://twitter.com/{{.}}" aria-label="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
   {{ end }}
@@ -98,14 +104,8 @@
   {{ with .Site.Params.social.skype}}
   <a href="skype:{{.}}" aria-label="Skype" target="_blank"><i class="fab fa-skype" aria-hidden="true"></i></a>
   {{ end }}
-  {{ with .Site.Params.social.telegram}}
-  <a href="https://t.me/{{.}}" aria-label="Telegram" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a>
-  {{ end }}
   {{ with .Site.Params.social.whatsapp}}
   <a href="https://wa.me/{{.}}" aria-label="Whatsapp" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-  {{ end }}
-  {{ with .Site.Params.social.email }}
-  <a href="mailto:{{.}}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
   {{ end }}
   {{ with .Site.Params.social.pgp }}
   <a href="/{{.}}.txt" aria-label="PGP" name="{{.}}"><i class="fas fa-key" aria-hidden="true"></i></a>
