@@ -21,7 +21,6 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-baseURL = "https://sapronov.me/"
 author = "Александр Сапронов"
 intro = "Engineering Manager (Руководитель IT/CTO)"
 description = "9 лет опыта в IT, работал в Avito, Welltory и других"
