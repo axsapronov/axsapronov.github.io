@@ -5,9 +5,16 @@
   {{ with .Site.Params.description }}
   <h4 class="intro">{{ . | markdownify }}</h4>
   {{ end }}
+  
+  <h3 class="author">
   {{ with .Site.Params.resume_ru }}
-  <h3 class="author">резюме -> <a class="resume" href="{{ . }}" download="Резюме. Сапронов Александр. Engineering Manager.pdf">скачать</a><br>ответы на вопросы для рекрутера -> <a class="resume" href="https://docs.google.com/document/d/1GR3Rwys3kxlG9Rch2HKe-AK1Hb9nK9eO1I_b9foIOJE/edit?usp=sharing">читать</a></h3>
+  резюме -> <a class="resume" href="{{ . }}" download="Резюме. Сапронов Александр. Engineering Manager.pdf">основное (2 страницы)</a>
   {{ end }}
+  {{ with .Site.Params.resume_long_ru }}
+  или <a class="resume" href="{{ . }}" download="Резюме. Сапронов Александр. Engineering Manager.pdf">подробное (4 страницы)</a>
+  {{ end }}
+  <br>ответы на вопросы для рекрутера -> <a class="resume" href="https://docs.google.com/document/d/1GR3Rwys3kxlG9Rch2HKe-AK1Hb9nK9eO1I_b9foIOJE/edit?usp=sharing">читать</a>
+</h3>
   
   <p class="excerpt-dark">
     Делаю так, чтобы компания зарабатывала на IT больше, чем тратила. Могу собрать команду, которая регулярно приносит результат, как из существующих сотрудников, так и нанять под ключ с рынка. Превращаю сложные и неопределенные требования в рабочее решение. 
