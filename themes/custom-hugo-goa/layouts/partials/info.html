@@ -5,30 +5,45 @@
   {{ with .Site.Params.description }}
   <h4 class="intro">{{ . | markdownify }}</h4>
   {{ end }}
-  
+  <h3>консультирую -> <a class="resume" href="https://getmentor.dev/mentor/aleksandr-sapronov-403">GetMentor</a>
+    или <a class="resume" href="https://solvery.io/mentor/axsapronov">Solvery</a></h3>
   <h3 class="author">
-  {{ with .Site.Params.resume_ru }}
-  резюме -> <a class="resume" href="{{ . }}" download="Резюме. Сапронов Александр. Engineering Manager.pdf">основное (2 страницы)</a>
-  {{ end }}
-  {{ with .Site.Params.resume_long_ru }}
-  или <a class="resume" href="{{ . }}" download="Резюме. Сапронов Александр. Engineering Manager.pdf">подробное (4 страницы)</a>
-  {{ end }}
-  <br>ответы на вопросы для рекрутера -> <a class="resume" href="https://docs.google.com/document/d/1GR3Rwys3kxlG9Rch2HKe-AK1Hb9nK9eO1I_b9foIOJE/edit?usp=sharing">читать</a>
-</h3>
-  
+
+    {{ with .Site.Params.resume_ru }}
+    резюме -> <a class="resume" href="{{ . }}" download="Резюме. Сапронов Александр. Engineering Manager.pdf">основное
+      (2 страницы)</a>
+    {{ end }}
+    {{ with .Site.Params.resume_long_ru }}
+    или <a class="resume" href="{{ . }}" download="Резюме. Сапронов Александр. Engineering Manager.pdf">подробное (4
+      страницы)</a>
+    {{ end }}
+    <br>ответы на вопросы для рекрутера -> <a class="resume"
+      href="https://docs.google.com/document/d/1GR3Rwys3kxlG9Rch2HKe-AK1Hb9nK9eO1I_b9foIOJE/edit?usp=sharing">читать</a>
+  </h3>
+
   <p class="excerpt-dark">
-    Делаю так, чтобы компания зарабатывала на IT больше, чем тратила. Могу собрать команду, которая регулярно приносит результат, как из существующих сотрудников, так и нанять под ключ с рынка. Превращаю сложные и неопределенные требования в рабочее решение. 
-  <br>
-  <br>
-    Разрабатывал как современные микросервисные проекты по превращению горы данных в персонализированный контент, так и точечные автоматизации для повышения эффективности процессов. Рос из back-end разработчика на Python и постоянно учился общаться с бизнесом на одном языке. Не стеснялся обосновывать и предлагать идеи.
+    Делаю, чтобы IT команда приносила больше, чем тратила. Соберу и настройку команду, которая регулярно приносит
+    результат, как из существующих сотрудников, так и найму под ключ с рынка. Превращаю сложные и неопределенные
+    требования в рабочее решение.
     <br>
     <br>
-    Я вам нужен в нескольких вариантах: если нужно решить непонятную продуктовую задачу, собрать команду, которая работает, описать и автоматизировать процессы (где это возможно), превратить невнятные технические слова в бизнес ценность, определить техническую стратегию, влезть руками и сделать "хорошо".
+    Разрабатывал как современные микросервисные проекты по превращению горы данных в персонализированный контент, так
+    и
+    улучшал процессы команд. Рос из back-end разработчика и знаком с современным
+    стэком разработки и поддержки ПО.
+    <br>
+    <br>
+    Я вам нужен если нужно оживить/запустить команду (разработка, devops), к конкретному сроку добиться результата,
+    описать и автоматизировать процессы (где это
+    возможно), превратить невнятные технические слова в бизнес
+    ценность, определить техническую стратегию.
     <br>
     <br>
     {{ with .Site.Params.social.telegram}}
-    Пишите в telegram: <a href="https://t.me/{{.}}" aria-label="Telegram" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a>
+    Пишите в telegram: <a href="https://t.me/{{.}}" aria-label="Telegram" target="_blank"><i class="fab fa-telegram"
+        aria-hidden="true"></i> @axsapronov</a> или на email: <a href="mailto:a@sapronov.me" aria-label="Email"><i
+        class="fas fa-envelope" aria-hidden="true"></i> a@sapronov.me</a>
     {{ end }}
-</p>
-  
+  </p>
+
 </section>
