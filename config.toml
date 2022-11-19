@@ -13,6 +13,7 @@ author = "Alexander Sapronov"
 title = "Alexander Sapronov"
 
 theme = "custom-hugo-goa"
+googleAnalytics = "UA-53909016-1"
 
 showcomments = false
 showpagemeta = false
