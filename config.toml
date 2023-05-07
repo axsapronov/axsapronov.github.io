@@ -23,8 +23,8 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Александр Сапронов"
-intro = "Engineering Manager (Руководитель IT/CTO)"
-description = "9 лет опыта в IT, работал в Avito, Welltory и других компаниях"
+intro = "IT Manager (Руководитель IT/CTO)"
+description = "9 лет опыта в IT, работал в МТС, МТС, Avito, Welltory и других компаниях"
 job_want = "Ищу "
 resume_ru = "/resume/resume_ru.pdf"
 resume_long_ru = "/resume/resume_long_ru.pdf"
@@ -34,8 +34,8 @@ long_description = "show"
 
 ## Site Meta Settings
 [params.meta]
-description = "Engineering Manager (Руководитель IT/CTO). 9 лет опыта в IT, работал в Avito, Welltory и других"
-keywords = "engineering,manager,developer,welltory,about,avito"
+description = "IT Manager (Руководитель IT/CTO). 9 лет опыта в IT, работал в МТС, МТС, Avito, Welltory и других"
+keywords = "engineering,manager,developer,welltory,about,avito,mts,mts"
 
 ## Social Accounts
 [params.social]
