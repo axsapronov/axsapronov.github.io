@@ -149,7 +149,7 @@ div.content
 .info
 {
     margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .intro
 {
@@ -235,8 +235,8 @@ section.meta {
     font-weight: 300;
 }
 .social {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .social,
 .social a
@@ -255,7 +255,7 @@ header.title
     margin-top: 50px;
     padding: 0 15px;
 }
-@media (max-width: 991px)
+@media (max-width: 1280px)
 {
     .header
     {
