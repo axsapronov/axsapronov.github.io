@@ -66,7 +66,7 @@ li
 {
     overflow: auto;
 
-    max-width: 1280px;
+    max-width: 1024px;
     padding: 0 15px;
 }
 .content
@@ -138,7 +138,7 @@ div.content
 }
 .header
 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .headshot
