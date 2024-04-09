@@ -9,8 +9,8 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Alexander Sapronov"
-title = "Alexander Sapronov"
+author = "Александр Сапронов"
+title = "Александр Сапронов"
 
 theme = "custom-hugo-goa"
 googleAnalytics = "UA-53909016-1"
