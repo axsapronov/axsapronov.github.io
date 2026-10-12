@@ -3,7 +3,7 @@ baseURL = "https://sapronov.me/"
 
 builddrafts = false
 canonifyurls = false
-languageCode = "en-US"
+locale = "en-US"
 
 contentdir = "content"
 layoutdir = "layouts"
