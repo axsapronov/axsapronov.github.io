@@ -2,14 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Александр Сапронов</title>
-		<link>https://sapronov.me/</link>
+		<link>http://localhost:1313/</link>
 		<description>Recent content on Александр Сапронов</description>
 		<generator>Hugo</generator>
-		<language>en-US</language>
+		<language>ru-RU</language>
 		
 		
 		
 		
-			<atom:link href="https://sapronov.me/index.xml" rel="self" type="application/rss+xml" />
+			<lastBuildDate>Sun, 26 Jan 2020 08:33:53 +0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Sun, 26 Jan 2020 08:33:53 +0700</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>

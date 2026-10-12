@@ -1,1 +1,40 @@
-/* Add custom CSS here. */
+/* Responsive text scaling: fluid sizes between mobile and desktop */
+body {
+    font-size: clamp(16px, 0.6vw + 14px, 20px);
+}
+div.content,
+.excerpt {
+    font-size: clamp(15px, 0.45vw + 13.5px, 18px);
+}
+.list-entry {
+    font-size: clamp(20px, 0.7vw + 17.5px, 25px);
+}
+.menu-item {
+    font-size: clamp(16px, 0.6vw + 14px, 20px);
+}
+h1 {
+    font-size: clamp(28px, 3vw + 16px, 40px);
+}
+h2 {
+    font-size: clamp(24px, 2.5vw + 14px, 34px);
+}
+h3 {
+    font-size: clamp(20px, 2vw + 13px, 28px);
+}
+h4 {
+    font-size: clamp(17px, 1.5vw + 11px, 22px);
+}
+.error h1 {
+    font-size: clamp(48px, 8vw, 80px);
+}
+.headshot {
+    width: min(200px, 50vw);
+    height: min(200px, 50vw);
+}
+pre,
+code {
+    overflow-x: auto;
+}
+pre {
+    max-width: 100%;
+}
